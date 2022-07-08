@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap");
+
+/* 
+===============
+hamburgerBtn
+===============
+*/
+
+.hamburgerBtn {
+  font-size: 2.5rem;
+  color: var(--clr-btn);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+  z-index: 2;
+}
+
+/* 
+===============
+sidebar
+===============
+*/
+
+.sidebar {
+  padding: 1rem;
+  background-color: var(--clr-nav);
+  height: 100vh;
+  width: 300px;
+  overflow-y: hidden;
+  position: relative;
+  box-sizing: border-box;
+  transform: translateX(-300px);
+  transition: transform 0.5s ease;
+}
+
+.showSidebar {
+  transform: translateX(0);
+}
+
+.main-heading {
+  font-size: 2rem;
+  font-family: "Tangerine", cursive;
+  font-weight: 700;
+  color: var(--clr-btn);
+  cursor: pointer;
+}
+
+/* 
+==============
+links
+==============
+*/
+
+.links {
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+.links li {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.links li a {
+  text-decoration: none;
+  word-spacing: 1rem;
+  color: var(--clr-links);
+}
+
+.links li a:hover {
+  color: var(--clr-socials);
+  transition: color 0.3s ease;
+}
+
+/* 
+==============
+socials
+==============
+*/
+.socials {
+  list-style-type: none;
+  padding-left: 0px;
+  margin-top: auto;
+  max-width: 150px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  right: 0;
+  transform: translateX(-50%);
+}
+
+.socials li {
+  align-self: center;
+  font-size: 1.3rem;
+}
+
+.socials li a {
+  font-size: 1.75rem;
+  color: var(--clr-btn);
+  text-decoration: none;
+}
+
+.socials li a:hover {
+  color: var(--clr-socials-hover);
+  transition: color 0.3s ease;
+}
