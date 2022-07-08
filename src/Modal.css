@@ -2,13 +2,15 @@
   background-color: rgba(0, 0, 0, 0.5);
   position: absolute;
   inset: 0;
+  z-index: 3;
+  padding: 1rem;
 }
 
 .modal-content {
   background-color: white;
   padding: 1rem;
   margin-inline: auto;
-  margin-top: 20%;
+  margin-top: 35vh;
   max-width: 450px;
   height: 200px;
   box-sizing: border-box;
