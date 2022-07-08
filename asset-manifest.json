@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/sidebar-modal-app/static/css/main.4b55748d.css",
+    "main.css": "/sidebar-modal-app/static/css/main.490a649e.css",
     "main.js": "/sidebar-modal-app/static/js/main.73cdc1c1.js",
     "index.html": "/sidebar-modal-app/index.html",
-    "main.4b55748d.css.map": "/sidebar-modal-app/static/css/main.4b55748d.css.map",
+    "main.490a649e.css.map": "/sidebar-modal-app/static/css/main.490a649e.css.map",
     "main.73cdc1c1.js.map": "/sidebar-modal-app/static/js/main.73cdc1c1.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b55748d.css",
+    "static/css/main.490a649e.css",
     "static/js/main.73cdc1c1.js"
   ]
 }
